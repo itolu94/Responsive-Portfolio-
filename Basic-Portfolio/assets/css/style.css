@@ -1,0 +1,303 @@
+html {
+    min-height: 100%;
+    position: relative;
+    padding-bottom: 120px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+body {
+    background-image: url("../images/Background.png");
+}
+
+header {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #fff;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    float: left;
+    margin: 8px 0 80px 0px;
+    font-size: 25px;
+    width: 100%;
+    position: static; 
+}
+
+nav {
+    float: right;
+    margin-right: 11%;
+    margin-top: 1.2%;
+    color: grey;
+}
+
+h2 {
+    font-size: 28px;
+    color: #4aaaa5;
+    font-weight: bold;
+    margin-bottom: 15px;
+    border-color: grey;
+    border-bottom-style: solid;
+    border-width: 2px;
+    padding: 10px 0;
+}
+
+nav a {
+    color: grey;
+    font-size: 15px;
+}
+
+article {
+    line-height: 150%;
+}
+
+article img {
+    width: 35%;
+    height: 35%;
+    float: left;
+    padding-right: 20px;
+}
+
+p {
+    font-size: 15px;
+}
+
+
+
+footer p {
+    margin: auto;
+    font-size: 15px;
+}
+
+a[href="portfolio.html"] {
+    border-style: solid;
+    border-width: 0 1px;
+    padding: 0 5px;
+    border-color: grey;
+}
+
+div.profLogo a:nth-child(2) {
+    margin: 0 20px;
+}
+
+div#contact h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.projectPicture {
+    width: 100%;
+    height: 100%;
+}
+
+.profLogo {
+    height: 60%;
+    width: 100%;
+}
+
+.Father {
+    position: relative;
+    float: left;
+    width: 30%;
+    height: 150px;
+    margin: 0 0 50px 70px;
+    clear: left;
+}
+
+.Mother {
+    position: relative;
+    float: right;
+    width: 30%;
+    height: 150px;
+    margin: 0 70px 50px 0px;
+}
+
+.Logo {
+    width: 20%;
+    height: 70%;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.project {
+    position: absolute;
+    width: 100%;
+    font-size: 20px;
+    background: #4aaaa5;
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+    bottom: 0;
+    margin-bottom: 3%;
+}
+
+.project2 {
+    position: absolute;
+    width: 100%;
+    font-size: 20px;
+    background: #4aaaa5;
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+    bottom: 0;
+    margin-bottom: 10px;
+}
+
+#Name {
+    background-color: #4aaaa5;
+    float: left;
+    margin-left: 10%;
+    padding: 20px 15px;
+    color: white;
+}
+
+#About-Me {
+    clear: left;
+    width: 80%;
+    margin: auto;
+}
+
+#usersName, #Email {
+    width: 100%;
+    margin: 1.3% 0;
+}
+
+#TextBox {
+    height: 400px;
+    width: 100%;
+    margin: 1.3% 0;
+}
+
+#content {
+    background-color: #fff;
+    border: 1px solid #fff;
+    padding: 0.5% 2%;
+    width: 62.5%;
+    float: left;
+    overflow: hidden;
+    border: 1px;
+}
+
+#contact {
+    background-color: #fff;
+    padding: 0px 10px 0 10px;
+    text-align: center;
+    width: 28.5%;
+    float: right;
+    color: grey;
+}
+
+#Footer {
+    position: absolute;
+    bottom: 0px;
+    background-color: #666666;
+    border-color: #4aaaa5;
+    border-top-width: 8px;
+    border-style: solid;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/*Screen width of 980px*/
+@media screen and (max-width: 980px)  {
+	article img {
+		width: 100%;
+	}
+
+	h2 {
+		font-size: 18px;
+	}
+
+	p, h1, #name{
+		font-size: 12px;
+	}
+
+	#TextBox {
+		height: 300px;
+	}
+
+
+	/*Need to figure out how to join these two classes*/
+
+	 .Mother {
+		float: none;
+		margin: 5% 0;
+		width: 100%;
+		height: 100%;
+
+	}
+
+	.Father {
+		float: none;
+		margin: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	.project{
+		font-size: 12px;
+	}
+
+	.project2  {
+		font-size: 12px;
+	}
+
+
+	
+}
+
+
+/*Screen width of 768*/
+@media screen and (max-width:768px)  {
+
+	#content {
+		width: 80%;
+		height: 80%;
+		float: none;
+		margin:auto;
+		margin-bottom: 2%;
+	}
+
+	#contact {
+		width: 80%;
+		height: 15%;
+		margin: auto;
+		float: none
+	}
+
+	#Name {
+		margin-left: 17%;
+	}
+
+	nav {
+		margin-right: 
+	}
+
+	article img {
+		width: 35%;
+	}
+
+	.Father {
+		float: left;
+		clear: left;
+		width: 30%;
+		padding-left: 1%;
+	}
+
+	.Mother {
+		float: right;
+		width: 30%;
+		padding-right: 1%;
+	}	
+
+	.Logo {
+		width: 12%;
+	}
+
+
+}
+
+@media screen and (max-width:640px)  {
+	
+}
