@@ -2,7 +2,7 @@ html {
     min-height: 100%;
     position: relative;
     padding-bottom: 120px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: 'Arial, Helvetica Neue, Helvetica, sans-serif';
 }
 
 body {
@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia, Times, Times New Roman, serif';
     background-color: #fff;
     border-radius: 25px;
     border: 1px solid #ccc;
@@ -99,7 +99,7 @@ div#contact h2 {
     float: left;
     width: 30%;
     height: 150px;
-    margin: 0 0 50px 70px;
+    margin: 0 0 8% 10%;
     clear: left;
 }
 
@@ -108,7 +108,7 @@ div#contact h2 {
     float: right;
     width: 30%;
     height: 150px;
-    margin: 0 70px 50px 0px;
+    margin: 0 10% 8% 0px;
 }
 
 .Logo {
@@ -283,20 +283,27 @@ div#contact h2 {
 		float: left;
 		clear: 1%;
 		width: 40%;
-        height: 20%;
+        height: 150px;
 		padding: 1%;
 	}
 
 	.Mother {
 		float: right;
 		width: 40%;
-        height: 20%;
+        height: 150px;
 		padding: 1%;
+        margin: 0 auto;
 	}	
 
 	.Logo {
 		width: 12%;
 	}
+
+
+ .project, .project2 {
+        width: 95%;
+        font-size: 15px;
+    }
 
 
 }
@@ -309,7 +316,15 @@ div#contact h2 {
 
     .Father, .Mother {
         width: 100%;
+        margin-bottom: 5%;
+        padding: 0;
     }
+
+    .project, .project2 {
+        width: 100%;
+        padding: 10px 0;
+    }
+
     
     h1, h2 {
         font-size: 16px;
