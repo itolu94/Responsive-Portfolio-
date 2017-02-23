@@ -58,6 +58,7 @@ article img {
 p {
     font-size: 15px;
     text-indent: 4em;
+    line-height: 200%;
 }
 
 
@@ -73,6 +74,8 @@ a[href="portfolio.html"] {
     padding: 0 5px;
     border-color: grey;
 }
+
+
 
 div.profLogo a:nth-child(2) {
     margin: 0 20px;
@@ -187,6 +190,15 @@ div#contact h2 {
     color: grey;
 }
 
+#submitButton {
+    background-color: #4aaaa5;
+    color: white;
+    height: 30px;
+    width: 70px;
+    border: none;
+
+}
+
 #Footer {
     position: absolute;
     bottom: 0px;
@@ -198,6 +210,7 @@ div#contact h2 {
     height: 50px;
     text-align: center;
     padding-top: 10px;
+    color: #ccc; 
 }
 
 /*Screen width of 980px*/
